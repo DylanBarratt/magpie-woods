@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Visitor Book</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1 class="prose" id="center">fortis arare placet ore stat</h1>
+        <br />
+        <a onclick="copyText()" id="center"><i>please send any messages to ore.stabit@gmail.com !</i></a>
+        <br />
+        <br />
+        <div id="center">
+            <a href="mailto:ore.stabit@gmail.com" target="_blank" class="emailBtn">Email</a>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&to=ore.stabit@gmail.com&tf=cm" target="_blank" class="emailBtn">Gmail</a>
+            <a href="https://outlook.office.com/?path=/mail/action/compose&to=ore.stabit@gmail.com" target="_blank" class="emailBtn">Outlook</a>
+            <a href="https://compose.mail.yahoo.com/?to=ore.stabit@gmail.com&subject=Visitor" target="_blank" class="emailBtn">Yahoo</a>
+        </div>
+        <br />
+        <br />
+        <a href="./index.html">back home</a>
+    </body>
+
+    <script>
+        function copyText() {
+            navigator.clipboard.writeText("ore.stabit@gmail.com");
+            alert("Email Copied");
+        }
+    </script>
+</html>

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+body {
+    margin: 2.5vw;
+    border: 2px gray dotted;
+}
+.prose {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.prose {
+    font-family: "EB Garamond", serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 608px;
+}
+
+.prose img {
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+}
+.prose ul {
+    list-style: none;
+    margin-top: 0;
+    text-align: center;
+}
+.prose ul li {
+    margin: 5px;
+}
+
+.prose h1 {
+    font-family: "EB Garamond", serif;
+    text-align: center !important;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+/* Justify makes the line spread to the full width. WordPress makes this even nicer by using automatic line hyphenation. */
+.prose p {
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.prose .story-body {
+    margin-bottom: 10vh;
+    font-size: 16px;
+    font-family: "Tapestry", cursive !important;
+}
+
+form {
+    margin: 3rem;
+}
+
+#center {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.emailBtn {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
